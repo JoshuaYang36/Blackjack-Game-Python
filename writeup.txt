@@ -1,0 +1,30 @@
+CIS 211 Project 5, May 5, 2014
+Joshua Yang
+==============
+
+In this folder there are two programs: queries.txt and summary.py
+
+In queries.txt I answered the questions and printed out the output.
+
+In summary.py I have a few functions: main, bill, capcase, upper and shorten
+
+My main function pulls in all the arguments from the command line and called them 
+accordingly. Then it sends them to the function bill.
+
+My bill function will take the name, year and month that you want the bill to be about. I
+first go through the list of movie rentals that I collected and only put the ones that 
+were rented during that month and year in a list. I then went through that list and 
+formatted them and made sure that there was no late fee.  If the difference was greater 
+than the rental_duration then it would print out the title, rental_date and rental_rate
+then in the line below it it would print late fee, the return_date and the additional 
+rental_rate. If the difference wasn't greater than the rental_duration then it would just 
+print out the title, rental_date and the rental_rate.  Then I calculated the total cost of 
+the rented movies during that month.
+
+The capcase function just capitalizes the first letter of each word in the string that is
+inputted into the function.
+
+The upper function just puts the string into all upper cases.
+
+The shorten function takes in the date that is given and then switches into the typical 
+month/day/year format.
